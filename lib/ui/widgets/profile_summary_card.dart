@@ -21,7 +21,7 @@ class ProfileSummeryCard extends StatefulWidget {
 }
 
 class _ProfileSummeryCardState extends State<ProfileSummeryCard> {
-  String imageFormat = AuthController.user?.photo ?? '';
+  String imageFormat = Get.find<AuthController>().user?.photo ?? '';
 
   @override
   Widget build(BuildContext context) {

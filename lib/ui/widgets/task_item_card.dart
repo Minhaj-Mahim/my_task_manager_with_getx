@@ -76,7 +76,7 @@ class _TaskItemCardState extends State<TaskItemCard> {
                     widget.task.status ?? 'New',
                     style: const TextStyle(color: Colors.white),
                   ),
-                  backgroundColor: Colors.blue,
+                  backgroundColor: Colors.green,
                 ),
                 Wrap(
                   children: [
