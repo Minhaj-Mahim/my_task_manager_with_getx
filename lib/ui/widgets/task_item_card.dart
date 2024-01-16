@@ -74,7 +74,7 @@ class _TaskItemCardState extends State<TaskItemCard> {
                 Chip(
                   label: Text(
                     widget.task.status ?? 'New',
-                    style: const TextStyle(color: Colors.white),
+                    style: const TextStyle(color: Colors.black),
                   ),
                   backgroundColor: Colors.green,
                 ),
